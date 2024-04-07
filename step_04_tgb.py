@@ -38,4 +38,4 @@ dataframe = pd.DataFrame({"Text":['Test', 'Other', 'Love'],
                           "Score Neg":[1, 2, 0],
                           "Overall":[0, -1, 4]})
 
-Gui(page).run(debug=True)
+Gui(page).run(debug=True, port=5001)

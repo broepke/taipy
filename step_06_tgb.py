@@ -70,4 +70,4 @@ with tgb.Page() as page:
               color__1="green", color__2="grey", color__3="red", type__4="line")
 
 # Run the GUI
-Gui(page).run(debug=True)
+Gui(page).run(debug=True, port=5001)

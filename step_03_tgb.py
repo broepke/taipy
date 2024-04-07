@@ -21,4 +21,4 @@ with tgb.Page() as page:
     tgb.button("Run local", on_action=on_button_action)
 
 
-Gui(page).run(debug=True)
+Gui(page).run(debug=True, port=5001)

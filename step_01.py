@@ -1,3 +1,3 @@
 from taipy import Gui
 
-Gui(page="# Getting started with *Taipy*").run(debug=True)
+Gui(page="# Getting started with *Taipy*").run(debug=True, port=5001)

@@ -116,4 +116,4 @@ pages = {"/":"<|toggle|theme|>\n<center>\n<|navbar|>\n</center>",
          "text":page_file}
 
 
-Gui(pages=pages).run(debug=True)
+Gui(pages=pages).run(debug=True, port=5001)

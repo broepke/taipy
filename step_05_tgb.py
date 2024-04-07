@@ -67,4 +67,4 @@ with tgb.Page() as page:
               color__1="green", color__2="grey", color__3="red", type__4="line")
 
 # Initialize the GUI with the updated dataframe
-Gui(page).run(debug=True)
+Gui(page).run(debug=True, port=5001)
